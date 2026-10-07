@@ -27,7 +27,7 @@ Several papers of mine are listed under my old name, Henry Shackleton.
   * Undergraduate thesis: [Diffusional Instabilities on Curved Manifolds](/pdfs/undergradThesis.pdf)
   * Thesis advisor: Mehran Kardar  
 # Publications and preprints:     
-- A. Feuerpfeil, **L. Shackleton**, A. Maity, R. Thomale, S. Sachdev, and Y. Iqbal, *Unifying Dirac Spin Liquids on Square and Shastry-Sutherland Lattices via Fermionic Deconfined Criticality*, arXiv:2601.19980. [[link]](https://arxiv.org/abs/2601.19980)
+- A. Feuerpfeil, **L. Shackleton**, A. Maity, R. Thomale, S. Sachdev, and Y. Iqbal, *Unifying Dirac Spin Liquids on Square and Shastry-Sutherland Lattices via Fermionic Deconfined Criticality*, accepted in SciPost Physics; arXiv:2601.19980. [[link]](https://arxiv.org/abs/2601.19980)
 
 - Y. Zhang, **L. Shackleton**, T. Senthil, *Pathways from a chiral superconductor to a composite Fermi liquid*, Phys. Rev. B **113**, 144510 (2026). [[link]](https://arxiv.org/abs/2509.21591)
  

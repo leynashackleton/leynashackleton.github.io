@@ -209,3 +209,30 @@ The former `hshackle.github.io` homepage returns HTTP 404, with no redirect.
 Next action: update external profile links and bookmarks to the new address;
 preserving the former hostname would require separate account/site setup.
 The previously recorded poster-reconciliation work remains outside this pass.
+
+## 2026-10-07 [codex] SciPost Physics acceptance
+
+Scope: status of the Unifying Dirac Spin Liquids paper, arXiv:2601.19980.
+Authority: the user's direct confirmation of acceptance in SciPost Physics on
+2026-10-07. The [arXiv record](https://arxiv.org/abs/2601.19980) confirms the
+existing title and author order; it has no final journal citation. The public
+SciPost submission page was inaccessible during this check. No volume, article
+number, journal DOI, or acceptance date was inferred.
+
+Moved the existing bibliography entry from preprints to publications, with
+SciPost Physics as the journal and an explicit accepted-for-publication note.
+Updated the website entry while retaining its arXiv link. Documented latexmk/
+BibTeX and clean Franklin builds passed; native editor compilation also passed.
+All five PDF pages and the website publication entry were visually inspected;
+checked 16 published/accepted entries, two preprints, no duplicate paper entry,
+and unchanged presentation/poster/teaching pages. Optional website minification
+is unavailable; the build completed successfully.
+
+Base revision: `fd402072baf88e5ea02c200ca89d11106d2f17cc`, initially clean local
+`main` and synchronized with origin. Generated preview files will be restored
+or removed; source, bibliography, PDF, and this note constitute the update.
+Publication is via the authorized main-branch push and existing Franklin/Pages
+workflows; deployment and live-PDF verification follow the push.
+CV SHA-256: `bfd6641e092b0fdf0937fbb82d8e1f33f7d80e1bb021c2e79fbc316367fdf5ae`.
+Next action: replace the acceptance note with the final journal citation when
+available. The previously recorded poster reconciliation remains outside scope.
