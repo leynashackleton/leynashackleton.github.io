@@ -236,3 +236,13 @@ workflows; deployment and live-PDF verification follow the push.
 CV SHA-256: `bfd6641e092b0fdf0937fbb82d8e1f33f7d80e1bb021c2e79fbc316367fdf5ae`.
 Next action: replace the acceptance note with the final journal citation when
 available. The previously recorded poster reconciliation remains outside scope.
+
+Publication verified on 2026-10-07: content commit `dc07bfd9c5f78fb392bba3b11a50b838ab813f57`
+is live. Franklin [37659183666](https://github.com/leynashackleton/leynashackleton.github.io/actions/runs/37659183666)
+and Pages [37659427607](https://github.com/leynashackleton/leynashackleton.github.io/actions/runs/37659427607)
+both succeeded, with `gh-pages` at `5f6218996ae0177e43113f433fdd6892a8f4ef11`.
+The [live CV page](https://leynashackleton.github.io/cv/) returns HTTP 200 and
+shows the acceptance; its publication entry was visually inspected in Chrome.
+The public PDF returns HTTP 200 and exactly matches the checked local PDF
+and checksum above. The source checkout was clean before this documentation-only
+verification note. No factual questions remain for this acceptance update.
