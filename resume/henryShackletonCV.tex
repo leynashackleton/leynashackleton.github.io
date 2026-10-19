@@ -43,6 +43,7 @@
 %\cvline{Tools}{Linux, Git, Slurm, OpenMPI, VTune profiler}
 \renewcommand*{\bibliographyhead}[1]{}
 \AtBeginEnvironment{thebibliography}{\interlinepenalty=10000}
+\apptocmd{\thebibliography}{\setlength{\itemsep}{2pt}\setlength{\parsep}{0pt}}{}{}
 \makeatletter
 \renewcommand\@biblabel[1]{}
 \makeatother

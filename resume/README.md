@@ -246,3 +246,30 @@ shows the acceptance; its publication entry was visually inspected in Chrome.
 The public PDF returns HTTP 200 and exactly matches the checked local PDF
 and checksum above. The source checkout was clean before this documentation-only
 verification note. No factual questions remain for this acceptance update.
+
+## 2026-10-19 [codex] Anyonic Neural Network Wavefunctions
+
+Scope: add the newly announced preprint, arXiv:2610.23815, to both CV versions.
+The [arXiv record](https://arxiv.org/abs/2610.23815) and author-search/API records
+confirm the title, author order (Andres Perez Fadon, Pok Man Tam, Leyna
+Shackleton), year 2026, and preprint status; v1 was submitted on October 16.
+Added the entry first in `preprints.bib` and the website publication list,
+retaining the established display-name convention and HTTPS arXiv link.
+Reduced bibliography item spacing to 2 pt, with zero paragraph spacing, so
+all entries remain intact and the CV retains five pages.
+
+Validation: documented latexmk/BibTeX and clean Franklin builds succeeded;
+native editor compilation succeeded. All five PDF pages and the website
+entry were visually inspected. Checked three preprints and 16 published/
+accepted entries, one new entry, author order, and the arXiv link; pages 3–5
+are text-identical to the prior PDF. Generated website PDF matches the source.
+Optional website minification remains unavailable; the build completed.
+
+Base revision: `952b731b971d64cb8cd4e70465132f8966146dff`, initially clean
+local main, synchronized with origin. Only the two CV sources, bibliography,
+public PDF, and this maintenance note comprise the update. Generated preview
+files are restored/removed before publication. Publication uses the existing
+Franklin/Pages workflows after the authorized push; live verification follows.
+CV SHA-256: `5821838d133252e8c862546505856feb051d8dd3d5cd6fc2a3b9e8d20016f203`.
+Next action: update this preprint's journal status when confirmed; previously
+recorded poster reconciliation remains outside this scoped update.
