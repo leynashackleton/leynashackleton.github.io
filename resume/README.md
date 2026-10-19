@@ -273,3 +273,14 @@ Franklin/Pages workflows after the authorized push; live verification follows.
 CV SHA-256: `5821838d133252e8c862546505856feb051d8dd3d5cd6fc2a3b9e8d20016f203`.
 Next action: update this preprint's journal status when confirmed; previously
 recorded poster reconciliation remains outside this scoped update.
+
+Publication verified on 2026-10-19: content commit
+`ba384b94811347d77c92e11dedaf60de9687ad09` is live. Franklin
+[39321332732](https://github.com/leynashackleton/leynashackleton.github.io/actions/runs/39321332732)
+and Pages [39321623357](https://github.com/leynashackleton/leynashackleton.github.io/actions/runs/39321623357)
+both succeeded; `gh-pages` is at `3e562f3bfe166d5d3df997406bbecb1a0b0a7095`.
+The live CV page returns HTTP 200, shows one new-paper entry with its correct
+arXiv link, and was visually inspected in Chrome. The PDF returns HTTP 200 and
+exactly matches the verified local checksum above. Temporary build/QA files
+from this update were removed. The checkout was clean before this excluded,
+documentation-only verification note; no unresolved issue remains for this addition.
