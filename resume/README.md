@@ -4,10 +4,10 @@
 
 Question: synchronize the three recent October talks. The user's confirmation,
 existing NYU record, and supplied title pages establish the dates and titles.
-The website and five-page PDF are checked; publication verification is pending.
-Authority: local website checkout, base revision `f7e8ce8`; no scientific runs.
+The website and five-page PDF are published and verified.
+Authority: local website checkout; deployed source `e3b490e`; no scientific runs.
 Open item: review supplied slide decks before publishing new PDFs; one contains
-a placeholder citation. Next action: verify the deployment and live CV download.
+a placeholder citation. Next action: finalize shareable decks before exporting slides.
 
 The source extracted from `../resume.zip` is maintained here. The original archive
 is preserved. The current public PDF is `../pdfs/leynaShackletonCV.pdf`.
@@ -334,3 +334,15 @@ and the Python version to 3.12, following the official action's current
 README and its version manifest, which lists Ubuntu 26.04 x64 builds.
 This launcher/settings repair does not invalidate the checked CV or content;
 the next deployment exercises the changed setup and existing website build.
+
+Publication verified on 2026-10-28: content commit `42912ff` plus deployment
+repair `e3b490e8e7d170fffe664da218dda3c9635ec2fe` are live. Franklin
+[40751559946](https://github.com/leynashackleton/leynashackleton.github.io/actions/runs/40751559946)
+and Pages [40751930659](https://github.com/leynashackleton/leynashackleton.github.io/actions/runs/40751930659)
+both succeeded, with `gh-pages` at `46147ad2391b2bf3b6ff5ff029374ad8bc0a3029`.
+The live page and public PDF return HTTP 200; all three completed October
+talks appear in the 31-record list, and the PDF exactly matches the checksum
+above. The browser connection recovered in a fresh tab; the published talk
+list was visually inspected. Temporary files from this update were removed.
+The checkout was clean before this documentation-only verification note.
+Only the separately identified slide candidates remain pending.
