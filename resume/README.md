@@ -311,8 +311,8 @@ PDF presentation pages 3–4 visually inspected. Five pages retained; pages 1–
 and 5 are text-identical to the prior PDF. Both sources contain 31 talks, with
 all 23 prior slide links preserved and local targets checked. Website preview
 text and generated HTML/PDF checked; the browser screenshot connection became
-unavailable. Franklin pre-rendering succeeded using the existing bundled Node
-on PATH; optional minification remains unavailable. Native editor tools were
+unavailable. Franklin completed without optional pre-rendering or minification; the
+build reported Node unavailable even with the bundled Node directory on PATH. Native editor tools were
 unavailable, so verification used the complete documented bibliography build.
 
 Base revision:
@@ -326,3 +326,11 @@ Slide candidates remain separate: only editable decks were found for the new
 talks, including a placeholder arXiv citation on the MIT title page. No new
 slide assets were published. Next action: review public-shareable final decks
 before export; poster reconciliation remains outside this pass.
+
+Deployment recovery: workflow [40751167839](https://github.com/leynashackleton/leynashackleton.github.io/actions/runs/40751167839)
+failed at Python setup, before building the website, because the new
+Ubuntu 26 runner could not find Python 3.8. Updated only setup-python to v7
+and the Python version to 3.12, following the official action's current
+README and its version manifest, which lists Ubuntu 26.04 x64 builds.
+This launcher/settings repair does not invalidate the checked CV or content;
+the next deployment exercises the changed setup and existing website build.
