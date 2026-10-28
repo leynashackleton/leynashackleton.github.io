@@ -1,5 +1,14 @@
 # Editable CV
 
+## Current state — 2026-10-28
+
+Question: synchronize the three recent October talks. The user's confirmation,
+existing NYU record, and supplied title pages establish the dates and titles.
+The website and five-page PDF are checked; publication verification is pending.
+Authority: local website checkout, base revision `f7e8ce8`; no scientific runs.
+Open item: review supplied slide decks before publishing new PDFs; one contains
+a placeholder citation. Next action: verify the deployment and live CV download.
+
 The source extracted from `../resume.zip` is maintained here. The original archive
 is preserved. The current public PDF is `../pdfs/leynaShackletonCV.pdf`.
 The historical main-source filename does not change the display name, Leyna Shackleton.
@@ -284,3 +293,36 @@ arXiv link, and was visually inspected in Chrome. The PDF returns HTTP 200 and
 exactly matches the verified local checksum above. Temporary build/QA files
 from this update were removed. The checkout was clean before this excluded,
 documentation-only verification note; no unresolved issue remains for this addition.
+
+## 2026-10-28 [codex] recent talks
+
+Scope: NYU October 20, Flatiron October 21, and MIT group meeting October 27.
+Used the user's direct confirmation of the completed talks and supplied titles.
+Correspondence confirms NYU's existing title/date and the Flatiron QMC meeting;
+local title pages corroborate the two new talks. Private correspondence and
+slide contents are not copied into this public repository. The public NYU
+calendar lookup was unavailable during this pass. Retained NYU's established
+“Mapping the quantum limits of classical simulatability” title; removed its
+upcoming marker. Added the Flatiron and MIT entries first in reverse date order,
+using exact dates in the PDF and existing month-level website formatting.
+
+Validation: documented latexmk/BibTeX and clean Franklin builds succeeded;
+PDF presentation pages 3–4 visually inspected. Five pages retained; pages 1–2
+and 5 are text-identical to the prior PDF. Both sources contain 31 talks, with
+all 23 prior slide links preserved and local targets checked. Website preview
+text and generated HTML/PDF checked; the browser screenshot connection became
+unavailable. Franklin pre-rendering succeeded using the existing bundled Node
+on PATH; optional minification remains unavailable. Native editor tools were
+unavailable, so verification used the complete documented bibliography build.
+
+Base revision:
+`f7e8ce89ed71d014cda62d40b8933f9cbbb0ae92`. Initially
+clean main and synchronized with origin. Only the two CV sources, public PDF,
+and this record comprise the update; generated preview files are restored/
+removed. Publication uses the authorized push and existing Franklin/Pages
+workflows, with live verification following. CV SHA-256: `31ce8e00aef86800c9da4f5eb60788877ca0934fa75a7ce48c6ff822bf1d84ed`.
+
+Slide candidates remain separate: only editable decks were found for the new
+talks, including a placeholder arXiv citation on the MIT title page. No new
+slide assets were published. Next action: review public-shareable final decks
+before export; poster reconciliation remains outside this pass.

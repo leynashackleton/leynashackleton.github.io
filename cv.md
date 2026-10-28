@@ -67,7 +67,9 @@ Several papers of mine are listed under my old name, Henry Shackleton.
 - J. R. Frank, J. Guven, M. Kardar, and **L. Shackleton**, *Pinning of diffusional patterns by non-uniform curvature*, Europhysics Letters **127**, 48001 (2019). [[link]](https://doi.org/10.1209/0295-5075/127/48001)
 
 # Presentations
-* (10/2026) "Mapping the quantum limits of classical simulatability," Center for Quantum Phenomena Seminar, NYU (upcoming, October 20)
+* (10/2026) "Anyonic neural network wavefunctions," Group Meeting, MIT
+* (10/2026) "Intrinsic and non-intrinsic sign problems in topological phases," Quantum Monte Carlo Group Meeting, Flatiron Institute
+* (10/2026) "Mapping the quantum limits of classical simulatability," Center for Quantum Phenomena Seminar, NYU
 * (09/2026) "Neural-Network Variational Monte Carlo for Anyons," Artificial Intelligence at the Quantum Frontier, KITP, UC Santa Barbara [[pdf]](/presentations/sep26KITP.pdf)
 * (09/2026) "Anyonic neural quantum states," Condensed Matter Seminar, University of Minnesota [[pdf]](/presentations/sep26MinnesotaSeminar.pdf)
 * (09/2026) "Mapping the quantum limits of classical simulatability," Physics Colloquium, University of Minnesota [[pdf]](/presentations/sep26MinnesotaColloquium.pdf)
